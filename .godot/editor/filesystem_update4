@@ -1,0 +1,5 @@
+res://Scene/Scene1.tscn
+res://Sprite/Player.tscn
+res://Script/room_based_camera.gd
+res://Sprite/camera_2d.tscn
+res://Script/playerMovement.gd
