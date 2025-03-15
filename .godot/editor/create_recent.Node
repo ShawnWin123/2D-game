@@ -1,7 +1,9 @@
+TileMap
+CanvasModulate
 Sprite2D
 ParallaxLayer
 ParallaxBackground
-TileMap
+RigidBody2D
 Camera2D
 AnimatedSprite2D
 AnimationPlayer

@@ -1,68 +1,80 @@
 [gd_scene load_steps=20 format=3 uid="uid://caa24y2t3cgjg"]
 
 [ext_resource type="Script" uid="uid://porn1u3vxdsu" path="res://Script/playerMovement.gd" id="1_m2c2q"]
-[ext_resource type="Texture2D" uid="uid://cw21roxtn1n8n" path="res://Image/Soldier-Idle.png" id="2_roh4k"]
-[ext_resource type="Texture2D" uid="uid://0goeafexsw8h" path="res://Image/Soldier-Walk.png" id="3_tp4q1"]
+[ext_resource type="Texture2D" uid="uid://nh21tq5sqbc7" path="res://Assets/Character/char_blue.png" id="2_m2c2q"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m2c2q"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(0, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_roh4k"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(56, 0, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tp4q1"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(112, 0, 56, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_efgl1"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(0, 0, 100, 100)
+atlas = ExtResource("2_m2c2q")
+region = Rect2(168, 0, 56, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y2oja"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(100, 0, 100, 100)
+atlas = ExtResource("2_m2c2q")
+region = Rect2(224, 0, 56, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xaf8q"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(200, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fj3ss"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(300, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8k3e7"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(400, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_geje3"]
-atlas = ExtResource("2_roh4k")
-region = Rect2(500, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_i3xcp"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(0, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xwf85"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(100, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_pqd42"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(200, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_5av1j"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(300, 0, 100, 100)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_q6ekd"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(400, 0, 100, 100)
+atlas = ExtResource("2_m2c2q")
+region = Rect2(280, 0, 56, 56)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tdj7d"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(500, 0, 100, 100)
+atlas = ExtResource("2_m2c2q")
+region = Rect2(112, 112, 56, 56)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_dteoh"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(600, 0, 100, 100)
+[sub_resource type="AtlasTexture" id="AtlasTexture_fj3ss"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(0, 112, 56, 56)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2albb"]
-atlas = ExtResource("3_tp4q1")
-region = Rect2(700, 0, 100, 100)
+[sub_resource type="AtlasTexture" id="AtlasTexture_8k3e7"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(56, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_geje3"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(112, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3xcp"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(168, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwf85"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(224, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqd42"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(280, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5av1j"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(336, 112, 56, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6ekd"]
+atlas = ExtResource("2_m2c2q")
+region = Rect2(392, 112, 56, 56)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_roh4k"]
 animations = [{
 "frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m2c2q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_roh4k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tp4q1")
+}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_efgl1")
 }, {
@@ -71,7 +83,20 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xaf8q")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
 }, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdj7d")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fj3ss")
 }, {
@@ -80,12 +105,7 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_geje3")
-}],
-"loop": true,
-"name": &"idle",
-"speed": 10.0
 }, {
-"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_i3xcp")
 }, {
@@ -100,15 +120,6 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_q6ekd")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_tdj7d")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_dteoh")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_2albb")
 }],
 "loop": true,
 "name": &"walk",
@@ -116,21 +127,21 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m2c2q"]
-size = Vector2(50, 68.5715)
+size = Vector2(50, 78.8571)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-scale = Vector2(0.7, 0.7)
 script = ExtResource("1_m2c2q")
 speed = 300.0
+jumpForce = -720
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(0, 30)
-scale = Vector2(5.5, 5.5)
+position = Vector2(5, -20)
+scale = Vector2(2.98214, 2.98214)
 sprite_frames = SubResource("SpriteFrames_roh4k")
-animation = &"walk"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-0.714286, 28.5714)
+position = Vector2(-0.714286, 23.4286)
 shape = SubResource("RectangleShape2D_m2c2q")

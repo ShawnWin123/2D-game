@@ -11,6 +11,7 @@ func _ready():
 	position_smoothing_speed = 10
 	
 func _process(delta: float) -> void:
+	screenSize = get_viewport_rect().size
 	set_screen_position()
 	
 func set_screen_position():
