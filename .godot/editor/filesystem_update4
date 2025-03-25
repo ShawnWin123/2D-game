@@ -1,4 +1,3 @@
 res://Scene/Scene1.tscn
 res://Sprite/Player.tscn
 res://Sprite/camera_2d.tscn
-res://Script/playerMovement.gd
